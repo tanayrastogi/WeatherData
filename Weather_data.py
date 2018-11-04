@@ -12,7 +12,7 @@ c = conn.cursor()
 class Weather_data:
     def __init__(self, city = 'Stockholm'):
         # API Key
-        key = '5efca6aa5638cd96220f96e2775727b1'
+        key = ''
 
         # Request URL
         url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid={}'.format(city, key)
